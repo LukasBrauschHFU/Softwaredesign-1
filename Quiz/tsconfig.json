@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ESNEXT",
+        "module": "system",
+        "sourceMap": true,
+        "removeComments": false,
+        "strict": false,
+        "noImplicitAny": true,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "skipLibCheck": true
+        
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "questionText" : "Ist der Film 'Mononoke Hime' unter der Regie von Hayao Miyazaki entstanden?",
+        "isAnswerYes" : true,
+        "type": "YesNoQuestion"
+    },
+
+    {
+        "questionText" : "Wann fand die Schlacht von Sekigahara statt?",
+        "upperLimit" : 1602,
+        "lowerLimit" : 1598,
+        "type": "EstimateQuestion"
+    },
+
+    {
+        "questionText" : "Welche der folgenden Aussagen über Musashi Miyamoto ist wahr?",
+        "possibleAnswers": [
+            {
+                "answerText": "Er kämpfte mit zwei Schwertern",
+                "isAnswerCorrect": true
+            },
+            {
+                "answerText": "Er war Christ",
+                "isAnswerCorrect": false
+            },
+            {
+                "answerText": "Seine bevorzugte Waffe war der Speer",
+                "isAnswerCorrect": false
+            },
+            {
+                "answerText": "Er konzipierte das Buch 'Go Rin no Sho'",
+                "isAnswerCorrect": true
+            }
+        ],
+        "type": "MultipleChoiceQuestion"
+    },
+
+    {
+        "questionText" : "Wie hieß der Samurai gegen den Musashi Miyamoto sein legendäres Duell auf Ganryu Island focht?",
+        "answerText" : "Sasaki Kojiro",
+        "type": "FreeTextQuestion"
+    }
+]
+
