@@ -1,0 +1,40 @@
+[
+    {
+        "questionText": "Ist die Erde eine Kugel?",
+        "isAnswerYes": true,
+        "type": "YesNoQuestion"
+    },
+    {
+        "questionText": "Wie viele Kontinente gibt es?",
+        "upperLimit": 9,
+        "lowerLimit": 4,
+        "type": "EstimateQuestion"
+    },
+    {
+        "questionText": "Welche Städtenamen gibt es bei Haus des Geldes nicht als Namen?",
+        "possibleAnswers": [
+            {
+                "answerText": "München",
+                "isAnswerCorrect": true
+            },
+            {
+                "answerText": "Oslo",
+                "isAnswerCorrect": false
+            },
+            {
+                "answerText": "Belgrad",
+                "isAnswerCorrect": true
+            },
+            {
+                "answerText": "Rio",
+                "isAnswerCorrect": false
+            }
+        ],
+        "type": "MultipleChoiceQuestion"
+    },
+    {
+        "questionText": "Welches ist das größte Meer der Erde?",
+        "answerText": "Pazifische Ozean",
+        "type": "FreeTextQuestion"
+    }
+]
