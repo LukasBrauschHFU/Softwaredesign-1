@@ -1,17 +1,17 @@
-System.register(["./main"], function (exports_1, context_1) {
+System.register(["./modules/main.js"], function (exports_1, context_1) {
     "use strict";
-    var main_1, c;
+    var main_js_1, c;
     var __moduleName = context_1 && context_1.id;
     return {
         setters: [
-            function (main_1_1) {
-                main_1 = main_1_1;
+            function (main_js_1_1) {
+                main_js_1 = main_js_1_1;
             }
         ],
         execute: function () {
-            c = new main_1.Calculator();
-            main_1.test(c, "1+2*33/11=");
-            console.log(main_1.test);
+            c = new main_js_1.Calculator();
+            main_js_1.test(c, "1+2*33/11=");
+            console.log(main_js_1.test);
         }
     };
 });

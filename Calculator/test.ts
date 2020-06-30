@@ -1,4 +1,4 @@
-import { Calculator, test } from "./main";
+import { Calculator, test } from "./modules/main.js";
 
 
 let c = new Calculator();
