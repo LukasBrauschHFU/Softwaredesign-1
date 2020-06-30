@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "ESNEXT",
-        "module": "system",
+        "module": "ESNEXT",
         "sourceMap": true,
         "removeComments": false,
         "strict": false,
